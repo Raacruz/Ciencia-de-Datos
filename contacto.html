@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <center>
+            <a href="index.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="registro.html">Registro</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </center>
+    </nav>
+
+    <!---input para nombre
+    <div class="nom">
+        <label for="Nombre">Nombre</label>
+        <input type="text" id="nombre">
+    </div>
+    -->
+    <!---input para correo
+    <div class="Correo">
+        <label for="correo">Correo</label>
+        <input type="email" name="" id="correo">
+    </div>
+    -->
+    <!---input para contraseña
+    <div class="Contraseña">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="" id="contraseña">
+    </div>
+    -->
+    <form method ="post" action="resultado.html" class="formRegis">
+        <h3>Página de registro</h3>
+        <div class="Nom">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" class="entrada" placeholder="Nombre">
+        </div>
+        <div class="Ape">
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" class="entrada" placeholder="Apellido">
+        </div>
+        <div class="Gen">
+            <label for="">Genero:</label>
+            <input type="radio" name="masculino" id="masculino" class="genero">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="femenino" id="femenino" class="genero">
+            <label for="femenino">Femenino</label>
+        </div>
+        <div class="Cor">
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo" class="entrada" placeholder="Correo">
+        </div>
+        <div class="Fec">
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" name="fecha" id="fecha" class="entrada" placeholder="Fecha">
+        </div>
+        <div class="Con">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" name="contraseña" id="contraseña" class="entrada" placeholder="Contraseña" >
+        </div>
+        <div class="Dir">
+            <label for="direccion">Dirección:</label>
+            <textarea name="direccion" id="direccion" cols="30" rows="10" class="entrada" placeholder="Dirección"></textarea>
+        </div>
+        <div class="registro">
+        <input type="submit" value="Enviar" class="enviar">
+        </div>
+        
+    </form>
+</body>
+
+</html>
